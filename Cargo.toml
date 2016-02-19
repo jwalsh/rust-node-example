@@ -1,0 +1,10 @@
+[package]
+name = "noderust"
+version = "0.1.0"
+authors = ["Jason Walsh <j@wal.sh>"]
+
+[lib]
+name = "fibonacci"
+crate-type = ["dylib"]
+
+[dependencies]
