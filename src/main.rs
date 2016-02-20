@@ -12,7 +12,7 @@ fn main() {
     let y = x;
     x = 9;
     println("{}", x);
-    println("{}", y;)
+    println("{}", y)
 
 
 }
