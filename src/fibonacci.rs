@@ -1,3 +1,5 @@
+#![crate_type = "dylib"]
+
 #[no_mangle]
 pub extern fn fibonacci(x: i32) -> i32 {
   if x <= 2 {

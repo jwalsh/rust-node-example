@@ -13,6 +13,4 @@ fn main() {
     x = 9;
     println("{}", x);
     println("{}", y)
-
-
 }
