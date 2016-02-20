@@ -1,0 +1,27 @@
+* node-rust
+
+This exposes calls from JavaScript back to Rust.
+
+* Installation
+
+#+BEGIN_SRC sh
+  npm install ffi
+#+END_SRC
+
+* Example
+
+#+BEGIN_SRC sh
+  rustc src/fibonacci.rs
+  rustc src/treble.rs
+  node test
+#+END_SRC
+
+* Setup
+
+The core Rust environment should be set up as follows:
+
+#+BEGIN_SRC sh
+  brew install multirust
+  multirust update
+  multirust default stable
+#+END_SRC
