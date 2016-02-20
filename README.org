@@ -16,6 +16,22 @@ This exposes calls from JavaScript back to Rust.
   node test
 #+END_SRC
 
+* Output
+
+#+BEGIN_EXAMPLE
+$ node debug test
+< Debugger listening on port 5858
+debug> . ok
+break in test.js:1
+> 1 var ffi = require('ffi');
+  2 var path = require('path');
+  3
+debug> c
+< 6765
+< 30
+debug>
+#+END_EXAMPLE
+
 * Setup
 
 The core Rust environment should be set up as follows:
