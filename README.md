@@ -1,6 +1,6 @@
 # node-rust
 
-This exposes calls from JavaScript back to node. 
+This exposes calls from JavaScript back to Rust. 
 
 # Installation
 
