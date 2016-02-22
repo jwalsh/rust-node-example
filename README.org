@@ -11,6 +11,7 @@ This exposes calls from JavaScript back to Rust.
 * Example
 
 #+BEGIN_SRC sh
+  cargo run
   rustc src/fibonacci.rs
   rustc src/treble.rs
   node test

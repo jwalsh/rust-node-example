@@ -3,8 +3,13 @@ name = "noderust"
 version = "0.1.0"
 authors = ["Jason Walsh <j@wal.sh>"]
 
+[[bin]]
+name = "dates"
+path = "src/date-main.rs"
+
 [lib]
 name = "fibonacci"
 crate-type = ["dylib"]
 
 [dependencies]
+regex = "0.1.53"

@@ -1,4 +1,5 @@
 fn main() {
+    println!("Rust and JavaScript/Node.js");
     fn fib(n: i32) -> i32 {
         if n <= 2 {
             return 1;
@@ -11,6 +12,6 @@ fn main() {
     let mut x : i32 = 4;
     let y = x;
     x = 9;
-    println("{}", x);
-    println("{}", y)
+    println!("{}", x);
+    println!("{}", y)
 }
