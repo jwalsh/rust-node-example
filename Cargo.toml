@@ -12,4 +12,4 @@ name = "fibonacci"
 crate-type = ["dylib"]
 
 [dependencies]
-regex = "0.1.53"
+regex = "1.5.5"
